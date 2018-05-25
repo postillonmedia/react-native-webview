@@ -1,0 +1,29 @@
+{
+  "name": "react-native-webview",
+  "version": "1.0.0",
+  "description": "Custom WebView with autoHeight feature",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/postillonmedia/react-native-webview.git"
+  },
+  "keywords": [
+    "react-native",
+    "webview",
+    "auto-height"
+  ],
+  "author": "Daniel Lang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/postillonmedia/react-native-webview/issues"
+  },
+  "homepage": "https://github.com/postillonmedia/react-native-webview#readme",
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^16.4.0",
+    "react-native": "^0.55.4"
+  }
+}
