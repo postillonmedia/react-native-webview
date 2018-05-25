@@ -111,3 +111,6 @@ export class WebView extends PureComponent {
     }
 
 }
+
+
+export default WebView;
