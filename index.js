@@ -69,13 +69,13 @@ export class WebView extends PureComponent {
     injectedJavaScript;
     webview;
 
-    constructor(...arguments) {
+    constructor() {
         super(...arguments);
 
         this.injectedJavaScript = '(' + String(injectedJavaScript) + ')();window.postMessage = String(Object.hasOwnProperty).replace(\'hasOwnProperty\', \'postMessage\');';
 
         this.state = {
-            height: 0,
+            height: this.props.defaultHeight,
         };
     }
 
