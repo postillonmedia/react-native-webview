@@ -1,8 +1,9 @@
 {
-  "name": "react-native-webview",
+  "name": "@postillon/react-native-webview",
   "version": "1.0.0",
   "description": "Custom WebView with autoHeight feature",
   "main": "index.js",
+  "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
